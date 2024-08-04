@@ -2,13 +2,13 @@ import { logo } from "../assets";
 
 const Hero = () => {
     return (
-        <header className="w-full justify-center items-center flex-col">
+        <header className="w-full flex justify-center items-center flex-col">
             <nav className="flex justify-between items-center w-full mb-10 pt-3">
                 <img src={logo} alt="app-logo" className="w-28 object-contain" />
 
                 <button
                     type="button"
-                    onClick={() => window.open("https://github.com/Baibhavos/Text-Summarization-Website")}
+                    onClick={() => window.open("https://github.com/Baibhavos/Text-Summarization-Website", "_blank")}
                     className="black-btn"
                 >
                     GitHub
